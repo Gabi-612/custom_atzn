@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include custom_atzn *.css
+recursive-include custom_atzn *.csv
+recursive-include custom_atzn *.html
+recursive-include custom_atzn *.ico
+recursive-include custom_atzn *.js
+recursive-include custom_atzn *.json
+recursive-include custom_atzn *.md
+recursive-include custom_atzn *.png
+recursive-include custom_atzn *.py
+recursive-include custom_atzn *.svg
+recursive-include custom_atzn *.txt
+recursive-exclude custom_atzn *.pyc
